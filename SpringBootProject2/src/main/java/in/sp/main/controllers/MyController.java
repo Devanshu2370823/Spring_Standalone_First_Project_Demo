@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
+// Instead of giving @Controller and @Response body, we can give @RestController annotation
 public class MyController {
 	@GetMapping("/")
 	@ResponseBody
